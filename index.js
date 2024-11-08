@@ -17,7 +17,7 @@ function createVideoCard(videoFile) {
     videoElement.preload = "none";
 
     const sourceElement = document.createElement("source");
-    sourceElement.src = `/videos/${videoFile}`;
+    sourceElement.src = `/hooks/${videoFile}`;
     sourceElement.type = "video/mp4";
     videoElement.appendChild(sourceElement);
     videoCard.appendChild(videoElement);

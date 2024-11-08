@@ -1,4 +1,5 @@
 import { VideoGrid } from "./components/VideoGrid";
+import "./index.css";
 
 function App() {
     return (

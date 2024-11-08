@@ -1,6 +1,12 @@
 const videoGrid = document.querySelector(".video-grid");
 
-const videoFiles = ["v1.mp4", "v2.mp4", "v3.mp4", "v4.mp4", "v5.mp4"];
+const videoFiles = [
+    "hook-1.mp4",
+    "hook-2.mp4",
+    "hook-3.mp4",
+    "hook-4.mp4",
+    "hook-5.mp4",
+];
 
 function createVideoCard(videoFile) {
     const videoCard = document.createElement("div");
